@@ -5,14 +5,14 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from telethon import TelegramClient
 
-API_ID = 34439680
-API_HASH = '1a9b9c5016e5c7fc2fb2b38b747e6486'
+API_ID = 000
+API_HASH = '1111'
 DB_NAME = 'telegram_online.db'
 
 # -------------------------------------------------------------
 # Задавай юзернеймы прямо здесь в массиве (можно с '@' или без)
 # -------------------------------------------------------------
-TARGET_USERNAMES = ['@V_Aleksei', 'katvas', '@cherrylllll']
+TARGET_USERNAMES = ['@V_Aleksei', 'katvas']
 
 def get_user_intervals(user_id: int):
     """Считывает события из БД по user_id."""
